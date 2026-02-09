@@ -9,5 +9,15 @@
     "build": {
         "command": "npm run build",
         "watch_dir": "src"
-    }
+    },
+    "routes": [
+        {
+            "pattern": "noraxai.com",
+            "custom_domain": true
+        },
+        {
+            "pattern": "www.noraxai.com",
+            "custom_domain": true
+        }
+    ]
 }
